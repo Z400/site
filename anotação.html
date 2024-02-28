@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
+<title></title>
+
+<script>
+var nome = 'CRISTIANE';
+    var num = '123';
+    var login = document.getElementById('campoLogin');
+    var senha = document.getElementById('campoSenha');
+    console.log(nome.value);
+
+    function logar() {
+      //console.log(document.getElementById('campoLogin'));
+      if ((nome == login.value) && (num == senha.value)) {
+
+        alert("Você logou")
+      } else {
+        alert("ta errado parceiro")
+      }
+    }
+
+</script>
+
+
+<script>
+function funcao1()
+{
+alert("Login: CRISTIANE, a senha é a data do nosso namoro.");
+}
+
+</script>
+</head>
+
+  <body>
+
+<div name="divForm" id="formulario">
+  <input id="dicaAlerta" type="button" onclick="funcao1()" value="Como logar" />
+<br><br>
+      <form name="formUser" action="">
+    <input  name="loginForm" id="campoLogin" type="text" placeholder="Login" required></input></a>
+    <br></br>
+    <input name=senhaForm type="text" id="campoSenha" placeholder="Senha" Required=""></input>
+    <br><br>
+  <button type="submit" name="enviaForm" value="Logar" id="botaoEnviar" onClick="logar()">Logar</button></div>
+
+<div id="divPainel"></div>
+
+    <br></br>
+    </form>
+
+
+  </body>
+</html>
